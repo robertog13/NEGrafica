@@ -1,0 +1,122 @@
+.FirstSection {
+  background-color: var(--darkColor);
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: space-evenly;
+}
+
+.FirstSection img {
+  width: 200px;
+  margin: auto 70px auto 30px;
+}
+
+.FirstSectionInfo {
+  margin: auto 0;
+}
+
+
+.FirstSection p {
+  font-family: var(--secundaryFont);
+  font-size: 40px;
+  margin: auto 0;
+  color: var(--whiteColor);
+
+}
+
+.FirstSection span {
+  font-family: var(--secundaryFont);
+  color: var(--whiteColor);
+  font-size: 20px;
+}
+
+.SecondSection {
+  background-color:aliceblue;
+  padding: 50px;
+}
+
+.SecondSection h2 {
+  color: var(--darkColor);
+  font-family: var(--primaryFont);
+  font-size: xx-large;
+}
+
+.CardSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.Card {
+  width: 300px;
+  height: 400px;
+  background-color: var(--whiteColor);
+  border: 2px solid var(--darkColor);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.Card h3 {
+  font-family: var(--primaryFont);
+  margin: 20px 0;
+}
+
+.Card p {
+  font-family: var(--secundaryFont);
+  margin-bottom: 20px;
+}
+
+.Card img {
+  width: 100%;
+
+}
+
+.SkinButton {
+  background-color: var(--darkColor);
+  padding: 10px;
+  text-decoration: none;
+  color: var(--whiteColor);
+  font-family: var(--primaryFont);
+  border-radius: 15px;
+  transition: 0.15s;
+}
+
+.SkinButton:hover {
+  background-color: var(--whiteColor);
+  border: 1px solid var(--darkColor);
+  color: var(--darkColor);
+  transition: 0.2s;
+}
+
+.ThirdSection {
+  background-color: var(--darkColor);
+  padding: 50px;
+}
+
+.ThirdSection h2 {
+  font-family: var(--primaryFont);
+  color: var(--whiteColor);
+  margin: 0 0 25px 0;
+  font-size: xx-large;
+}
+
+.ThirdInfoSection  {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.ThirdInfoSection p {
+  width: 60%;
+  color: var(--whiteColor);
+  font-family: var(--secundaryFont);
+  font-size: 25px;
+}
+
+
+.teste {
+  width: 150px;
+  height: 300px;
+  background-color: aquamarine;
+}

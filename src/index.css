@@ -1,0 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/geometry-soft-pro');
+@import url('https://fonts.cdnfonts.com/css/myriad-pro-5');
+
+
+:root {
+  --primaryFont:'Geometry Soft Pro Bold N', sans-serif;
+  --secundaryFont: 'Myriad Pro', sans-serif;
+
+  --darkColor: #363C4A;
+  --whiteColor: #FAFBFC;
+  --orange:#F27127;
+  --pink:#D9078F;
+  --blue:#05C7F2;
+}
+
+* {
+  margin: 0;
+	padding: 0;
+}
+
+h1 {
+  font-family: var(--primaryFont);
+}

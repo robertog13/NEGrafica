@@ -1,0 +1,19 @@
+.Header {
+  background-color: rgb(23, 26, 54);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.Header img {
+  margin: auto 0 auto 40px; 
+  width: 60px;
+}
+
+.IconSection {
+  margin: auto 50px
+}
+
+.Icon {
+  margin-left: 10px;
+}
