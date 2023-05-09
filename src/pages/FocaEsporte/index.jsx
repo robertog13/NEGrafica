@@ -9,7 +9,7 @@ function FocaEsporte() {
       <Header />
       <div className='FirstSectionFE'>
         <img src="" alt="Foca Esporte logo" />
-        <h1>Foca Esporte</h1>
+        <h1>FocaEsporte</h1>
         <img src="src/assets/LogoNE.svg" alt="" />
       </div>
 

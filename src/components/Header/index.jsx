@@ -5,7 +5,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 function Header() {
   return (
     <div className="Header">
-      <img src="src/assets/LogoNE.svg" alt="" />
+      <img src="public/assets/LogoNE.svg" alt="" />
       <div className="IconSection">
         <Link to="/NEGrafica">
           <RiHome5Line className="Icon" size={28} color=" #FAFBFC" />
