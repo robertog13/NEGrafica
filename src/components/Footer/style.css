@@ -1,0 +1,15 @@
+.Footer {
+  background-color: rgb(23, 26, 54);
+  color: var(--whiteColor);
+  font-family: var(--secundaryFont);
+  display: flex;
+  justify-content: center;
+}
+
+.Contacts {
+  margin: auto 30px;
+}
+
+.Contacts p {
+  font-size: 20px;
+}
