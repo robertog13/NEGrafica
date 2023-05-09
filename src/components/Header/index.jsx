@@ -7,7 +7,7 @@ function Header() {
     <div className="Header">
       <img src="src/assets/LogoNE.svg" alt="" />
       <div className="IconSection">
-        <Link to="/">
+        <Link to="/NEGrafica">
           <RiHome5Line className="Icon" size={28} color=" #FAFBFC" />
         </Link>
       <RiChatQuoteLine className="Icon" size={28} color=" #FAFBFC"/>

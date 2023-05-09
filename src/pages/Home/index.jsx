@@ -28,28 +28,28 @@ function Home() {
             <img src="src/assets/meeting-4156018_1280.jpg" alt="Job" />
             <h3>Consultoria Empresarial</h3>
             <p>Plano de negócio, consultoria em marketing, consultoria financeira, consultoria de recursos humanos ...</p>
-            <Link to="/consultoria"className="SkinButton">Ver Projetos</Link>
+            <Link to="/NEGrafica/consultoria"className="SkinButton">Ver Projetos</Link>
           </div>
 
           <div className="Card">
             <img src="src/assets/printer-933098_1280.jpg" alt="Job" />
             <h3>Gráfica Rápida</h3>
             <p>Cartão de visitas, TAGs, Imã de Geladeira, Banners, Faixas, Receituários, Blocos de pedidos, cardápios,Placas de sinalização PVC e muito mais.</p>
-            <Link to="/grafica" className="SkinButton">Ver Projetos</Link>
+            <Link to="/NEGrafica/grafica" className="SkinButton">Ver Projetos</Link>
           </div>
 
           <div className="Card">
             <img src="src/assets/WhatsApp Image 2023-05-06 at 10.23.38.jpeg" alt="Job" />
             <h3>Projeto Foca Esporte</h3>
             
-            <Link to="/focaesporte" className="SkinButton">Ver Projetos</Link>
+            <Link to="/NEGrafica/focaesporte" className="SkinButton">Ver Projetos</Link>
           </div>
 
           <div className="Card">
             <img src="src/assets/printer-933098_1280.jpg" alt="Job" />
             <h3>Web Desing</h3>
             <p>Confecção de site para divulgação do seu negócio e aumento do público através do meu digital com um site próprio</p>
-            <Link to="/grafica" className="SkinButton">Ver Projetos</Link>
+            <Link to="/NEGrafica/web-design" className="SkinButton">Ver Projetos</Link>
           </div>
         </div>
       </div>

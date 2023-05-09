@@ -9,9 +9,9 @@ function App() {
   return (
     <Switch>
       <Route exact path="/NEGrafica" component={Home}/>
-      <Route path="/focaesporte" component= {FocaEsporte} />
-      <Route path='/consultoria' component={Consultoria} />
-      <Route path="/grafica" componet={Grafica} />
+      <Route path="/NEGrafica/focaesporte" component= {FocaEsporte} />
+      <Route path='/NEGrafica/consultoria' component={Consultoria} />
+      <Route path="/NEGrafica/grafica" componet={Grafica} />
     </Switch>
 
 
