@@ -18,7 +18,7 @@
 
 .ListaDeGraficas {
    /* The image used */
-   background-image: url("src/assets/BackGround.jpg");
+   background-image: url("/home/roberto/projetos-upgit/empresaNE/NEGrafica/src/assets/BackGround.jpg");
 
    /* Set a specific height */
    min-height: 500px;
