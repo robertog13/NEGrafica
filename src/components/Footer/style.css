@@ -4,6 +4,7 @@
   font-family: var(--secundaryFont);
   display: flex;
   justify-content: center;
+  height: 200px;
 }
 
 .Contacts {
@@ -11,5 +12,9 @@
 }
 
 .Contacts p {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.Referencia {
+  margin: auto 30px;
 }

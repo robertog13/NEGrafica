@@ -10,7 +10,7 @@ function Home() {
     <div>
       <Header />
       <div className="FirstSection">
-      <img src="public/image/LogoNE.svg"  alt="Logo" />
+      <img src="https://robertog13.github.io/NEGrafica/image/LogoNE.svg"  alt="Logo" />
         <div className="FirstSectionInfo">
           <p>Consultoria Empresarial,<br/> Sistemas & Gráfica Rápida</p>
           <span>
@@ -25,31 +25,24 @@ function Home() {
         <h2>Nossos Serviços</h2>
         <div className="CardSection">
           <div className="Card">
-            <img src="src/image/vite.svg" alt="testei e n deu" />
+            <img src="https://robertog13.github.io/NEGrafica/image/meeting-4156018_1280.jpg" alt="testei e n deu" />
             <h3>Consultoria Empresarial</h3>
             <p>Plano de negócio, consultoria em marketing, consultoria financeira, consultoria de recursos humanos ...</p>
-            <Link to="/NEGrafica/consultoria"className="SkinButton">Ver Projetos</Link>
+            <Link to="/NEGrafica/consultoria"className="SkinButton">Ver Mais</Link>
           </div>
 
           <div className="Card">
-            <img src="dist/image/meeting-4156018_1280.jpg" alt="aaaaa" />
+            <img src="https://robertog13.github.io/NEGrafica/image/printer-933098_1280.jpg" alt="aaaaa" />
             <h3>Gráfica Rápida</h3>
             <p>Cartão de visitas, TAGs, Imã de Geladeira, Banners, Faixas, Receituários, Blocos de pedidos, cardápios,Placas de sinalização PVC e muito mais.</p>
-            <Link to="/NEGrafica/grafica" className="SkinButton">Ver Projetos</Link>
+            <Link to="/NEGrafica/grafica" className="SkinButton">Ver Mais</Link>
           </div>
 
           <div className="Card">
-            <img src="/image/WhatsApp Image 2023-05-06 at 10.23.38.jpeg" alt="Job" />
-            <h3>Projeto Foca Esporte</h3>
-            
-            <Link to="/NEGrafica/focaesporte" className="SkinButton">Ver Projetos</Link>
-          </div>
-
-          <div className="Card">
-            <img src="public/vite.svg" alt="Job" />
+            <img src="src/assets/coding-g01917004a_1280.jpg" alt="Job" />
             <h3>Web Desing</h3>
             <p>Confecção de site para divulgação do seu negócio e aumento do público através do meu digital com um site próprio</p>
-            <Link to="/NEGrafica/web-design" className="SkinButton">Ver Projetos</Link>
+            <Link to="/NEGrafica/webdesign" className="SkinButton">Ver Mais</Link>
           </div>
         </div>
       </div>
@@ -58,10 +51,10 @@ function Home() {
         <div className="ThirdSection">
           <h2>Sobre</h2>
           <div className="ThirdInfoSection">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eius veniam natus minus reprehenderit pariatur, ipsa consequatur optio asperiores recusandae saepe laborum possimus maiores ipsam iusto non inventore et deserunt!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, fuga accusantium culpa eveniet dolores eaque necessitatibus! Beatae impedit amet odio. Autem ducimus earum, debitis dignissimos consequuntur voluptatum repudiandae reprehenderit natus?
+            <p>
+              A NE é uma empresa multifacetada que oferece serviços abrangentes de design, gráfica rápida, web design e consultoria. Com uma equipe altamente capacitada e experiente, estamos comprometidos em fornecer soluções criativas e personalizadas para atender às necessidades específicas de nossos clientes. Desde o desenvolvimento de identidade visual e materiais de marketing até impressões em pequena escala, design de websites responsivos e estratégias de negócios, nossa empresa se destaca por sua qualidade excepcional, atendimento ao cliente de primeira linha e resultados impactantes. Esteja você procurando por designs únicos e atraentes, impressões rápidas e de alta qualidade, presença digital impressionante ou insights estratégicos para impulsionar seus negócios, a empresa XYZ é sua parceira confiável para todas as suas necessidades criativas e consultivas.
             </p>
-            <div className="teste"></div>
+            <img className="IconAbout" src="src/assets/biro-blue-computer-with-different-elements-for-web-design-1.png" alt="teste" />
           </div>
         </div>
 

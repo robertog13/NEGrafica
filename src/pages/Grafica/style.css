@@ -1,0 +1,43 @@
+.GraphicTypes {
+  color: var(--whiteColor);
+  
+}
+
+.GraphicTypes h3 {
+  margin: 0 0 10px 10px;
+  font-family: var(--primaryFont);
+}
+
+.TextAbout {
+  font-family: var(--secundaryFont);
+  margin-bottom: 10px;
+}
+.TitleG {
+  color: var(--whiteColor)
+}
+
+.ListaDeGraficas {
+   /* The image used */
+   background-image: url("src/assets/BackGround.jpg");
+
+   /* Set a specific height */
+   min-height: 500px;
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  padding: 10%;
+  list-style: none;
+}
+
+.ListaDeGraficas li{
+  text-align: center;
+  font-family: var(--secundaryFont);
+  color: var(--whiteColor);
+  font-size: 60px;
+  background-color: rgba(0, 0, 0, 0.863);
+  border-radius: 10px;
+  margin: 20px
+}

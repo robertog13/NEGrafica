@@ -5,13 +5,14 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 function Header() {
   return (
     <div className="Header">
-      <img src="public/assets/LogoNE.svg" alt="" />
+      <img src="https://robertog13.github.io/NEGrafica/image/LogoNE.svg" alt="" />
       <div className="IconSection">
         <Link to="/NEGrafica">
-          <RiHome5Line className="Icon" size={28} color=" #FAFBFC" />
+          <RiHome5Line className="Icon" size={40} color=" #FAFBFC" />
         </Link>
-      <RiChatQuoteLine className="Icon" size={28} color=" #FAFBFC"/>
-      <RiBriefcase5Line  className="Icon" size={28} color=" #FAFBFC"/>
+        <Link to="/NEGrafica/contacts">
+          <RiChatQuoteLine className="Icon" size={40} color=" #FAFBFC"/>
+        </Link>
       </div>
     </div>
   );

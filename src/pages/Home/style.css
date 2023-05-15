@@ -12,6 +12,7 @@
 
 .FirstSectionInfo {
   margin: auto 0;
+  color: var(--whiteColor)
 }
 
 
@@ -36,8 +37,6 @@
 
 .SecondSection h2 {
   color: var(--darkColor);
-  font-family: var(--primaryFont);
-  font-size: xx-large;
 }
 
 .CardSection {
@@ -49,7 +48,7 @@
 
 .Card {
   width: 300px;
-  height: 400px;
+  height: 450px;
   background-color: var(--whiteColor);
   border: 2px solid var(--darkColor);
   margin: 20px 0;
@@ -71,33 +70,14 @@
 
 }
 
-.SkinButton {
-  background-color: var(--darkColor);
-  padding: 10px;
-  text-decoration: none;
-  color: var(--whiteColor);
-  font-family: var(--primaryFont);
-  border-radius: 15px;
-  transition: 0.15s;
-}
-
-.SkinButton:hover {
-  background-color: var(--whiteColor);
-  border: 1px solid var(--darkColor);
-  color: var(--darkColor);
-  transition: 0.2s;
-}
-
 .ThirdSection {
   background-color: var(--darkColor);
-  padding: 50px;
+  padding: 50px ;
+  flex-wrap: wrap;
 }
 
 .ThirdSection h2 {
-  font-family: var(--primaryFont);
   color: var(--whiteColor);
-  margin: 0 0 25px 0;
-  font-size: xx-large;
 }
 
 .ThirdInfoSection  {
@@ -107,15 +87,14 @@
 }
 
 .ThirdInfoSection p {
-  width: 60%;
+  width: 50%;
   color: var(--whiteColor);
   font-family: var(--secundaryFont);
   font-size: 25px;
+  margin: auto 0;
 }
 
 
-.teste {
-  width: 300px;
-  height: 300px;
-  background-color: aquamarine;
+.IconAbout {
+  width: 30%;
 }

@@ -20,4 +20,124 @@
 
 h1 {
   font-family: var(--primaryFont);
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: var(--primaryFont);
+  color: var(--whiteColor);
+  margin: 0 0 25px 0;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: var(--primaryFont);
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--pink);
+  transition: 200ms;
+}
+
+p {
+  font-family: var(--secundaryFont);
+  font-size: 18px;
+}
+
+
+
+.SkinButton {
+  background-color: var(--darkColor);
+  padding: 10px;
+  text-decoration: none;
+  color: var(--whiteColor);
+  font-family: var(--primaryFont);
+  border-radius: 15px;
+  transition: 0.15s;
+}
+
+.SkinButton:hover {
+  background-color: var(--whiteColor);
+  border: 1px solid var(--darkColor);
+  color: var(--darkColor);
+  transition: 0.2s;
+}
+
+.SkinButtonLarge {
+  background-color: var(--darkColor);
+  padding: 25px;
+  text-decoration: none;
+  color: var(--whiteColor);
+  font-family: var(--primaryFont);
+  font-size: 20px;
+  border-radius: 15px;
+  transition: 0.15s;
+  margin-left: 20%;
+}
+
+.SkinButtonLarge:hover {
+  background-color: var(--whiteColor);
+  border: 1px solid var(--darkColor);
+  color: var(--darkColor);
+  transition: 0.2s;
+}
+
+.ContainerInfoWhite {
+  display: flex;
+  margin: 15px 10%;
+}
+
+.TextAboutC {
+  font-size: 20px;
+  padding: 0 10%;
+  margin: auto 10px auto 0;
+}
+
+.GraphicTypes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.GraphicTypes img {
+  width: 30%;
+  border: 2px solid var(--whiteColor);
+  margin: auto;
+}
+
+.GraphicTypes p {
+  margin: auto 0;
+  padding: 20px 5%;
+  font-size: 20px;
+}
+
+.ContainerInfoWhite2 {
+  height: 450px;
+  background-color: red;
+  margin: auto;
+}
+
+.SkinButtonLarge2 {
+  background-color: var(--darkColor);
+  padding: 25px;
+  text-decoration: none;
+  color: var(--whiteColor);
+  font-family: var(--primaryFont);
+  font-size: 20px;
+  border-radius: 15px;
+  transition: 0.15s;
+  margin: auto;
+}
+
+.SkinButtonLarge2:hover {
+  background-color: var(--whiteColor);
+  border: 1px solid var(--darkColor);
+  color: var(--darkColor);
+  transition: 0.2s;
 }

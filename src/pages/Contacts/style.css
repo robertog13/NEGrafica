@@ -1,0 +1,22 @@
+.ContactsButt2 {
+  background-color: var(--darkColor);
+  padding: 25px;
+  text-decoration: none;
+  color: var(--whiteColor);
+  font-family: var(--primaryFont);
+  font-size: 20px;
+  border-radius: 15px;
+  transition: 0.15s;
+  margin: auto 0;
+}
+
+.ContactsButt2:hover {
+  background-color: var(--whiteColor);
+  border: 1px solid var(--darkColor);
+  color: var(--darkColor);
+  transition: 0.2s;
+}
+
+.Contacts2 {
+  height: 450px;
+}
