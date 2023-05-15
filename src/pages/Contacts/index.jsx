@@ -8,7 +8,7 @@ function Contacts() {
     <div>
     <Header />
     <div className='FirstSection'>
-      <img src="src/assets/biro-analysis-of-the-companys-investment-growth-1.png" alt="" />
+      <img src="https://robertog13.github.io/NEGrafica/image/biro-analysis-of-the-companys-investment-growth-1.png" alt="" />
       <div className="FirstSectionInfo">
         <h1>Entre em Contado</h1>
       </div>
